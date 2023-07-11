@@ -31,18 +31,6 @@ Output of the processing step:
 $ wl_ugps_process.py --zoom 19 *.csv
 Processing 2 files
 -------------------
-2023-06-05_09-38-06_filtered.csv
-Log contains 1382 rows spanning 699.5 seconds recorded at 2.0 Hz
-Removed 176 rows (13%) where position_valid == False
-Rotating by -90 degrees
-Translating by (47.6075779801547, -122.34390446166833)
-Draw 4 red circles(s) for missing R1, -x, aft
-Draw 0 black circles(s) for missing R2, +y, starboard
-Draw 45 green circles(s) for missing R3, +x, forward
-Draw 13 blue circles(s) for missing R4, +z, down
-62 rows (4%) are missing a signal
-Writing 2023-06-05_09-38-06_filtered.html
--------------------
 2023-06-05_09-26-08_filtered.csv
 Log contains 1339 rows spanning 677.7 seconds recorded at 2.0 Hz
 Removed 177 rows (13%) where position_valid == False
@@ -51,9 +39,21 @@ Translating by (47.6075779801547, -122.34390446166833)
 Draw 94 red circles(s) for missing R1, -x, aft
 Draw 0 black circles(s) for missing R2, +y, starboard
 Draw 8 green circles(s) for missing R3, +x, forward
-Draw 18 blue circles(s) for missing R4, +z, down
+Draw 18 blue circles(s) for missing R4, 0, center
 120 rows (9%) are missing a signal
 Writing 2023-06-05_09-26-08_filtered.html
+-------------------
+2023-06-05_09-38-06_filtered.csv
+Log contains 1382 rows spanning 699.5 seconds recorded at 2.0 Hz
+Removed 176 rows (13%) where position_valid == False
+Rotating by -90 degrees
+Translating by (47.6075779801547, -122.34390446166833)
+Draw 4 red circles(s) for missing R1, -x, aft
+Draw 0 black circles(s) for missing R2, +y, starboard
+Draw 45 green circles(s) for missing R3, +x, forward
+Draw 13 blue circles(s) for missing R4, 0, center
+62 rows (4%) are missing a signal
+Writing 2023-06-05_09-38-06_filtered.html
 ~~~
 
 A Folium map was generated for each log file:
