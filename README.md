@@ -1,3 +1,5 @@
+See the published report at https://clydemcqueen.github.io/wl_ugps_acoustic_analysis/
+
 We tested the Waterlinked UGPS system off Pier 59 in Seattle and gathered acoustic logs from the G2 box using a Python
 script that polled the acoustic/filtered API at 2Hz.
 
